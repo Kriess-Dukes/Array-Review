@@ -1,5 +1,5 @@
 //Declare and initalize a variable with an empty array 
-
+var = [' ']
 
 //Use bracket notation to add
   //a string to the first index
@@ -42,7 +42,15 @@ nextNum(100) => 101
 
 function nextNum(number){
   //CODE BELOW HERE
+ var nextNum(98) => 99;
 
+for(var i = number; i >= 1; i--){
+
+  answer = answer + i;
+
+  console.log(nextNum)
+
+ 
 
 
   //CODE ABOVE HERE
@@ -64,11 +72,10 @@ EXAMPLE:
 
 function countVowels(string){
   //CODE BELOW HERE
-
-
+ var countVowels ('Kriess Dukes') => 4
   //CODE ABOVE HERE
 }
-
+ console.log(countVowels)
 /*
 3. Write a function that will return if a given 
    array has an even number of indicies.
@@ -84,7 +91,10 @@ evenIndicies(otherArray) => false
 
 function evenIndicies(array){
   //CODE BELOW HERE
-
-
+ var myArray = [1,2,3,4,5]
+ var otherArray = [1,2,3,4,5,6]
+ 
+ evenIndicies(myArray) => true
+ evenIndicies(otherArray) => false
   //CODE ABOVE HERE
 }
